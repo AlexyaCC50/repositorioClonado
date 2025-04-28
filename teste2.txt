@@ -29,3 +29,12 @@ git push -u origin main
  git add . ou 'nome do arquivo'
  git commit -m 'Explicação das mudanças'
  git push
+
+ ============================================================
+
+ Clonar um repositório de alguém para iniciar a partir dali um projeto seu
+
+ git clone https://...
+ cd 'nome da pasta do projeto'
+ git remote remove origin 
+ git remote add origin
